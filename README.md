@@ -1,19 +1,40 @@
-<p align="center"> <img src="https://imgur.com/J3hD21O.png" alt="Javascript: criando requisições"> </p>
+# Projeto Watch Later
 
-<hr>
 
-<p align="center"> <img src="https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png" alt="Logo da Alura"> </p>
-<p align="center">Página inicial e formulário de cadastro de vídeos da AluraPlay, uma plataforma de compartilhamento de vídeos.</p>
+## 🛠️ Como rodar o projeto
 
-## Tecnologias utilizadas durante o curso
-* Javascript
-* NodeJS
+Como criei um servidor local com o json-server ele não mantém os dados quando eu dou deploy, portanto a lista fica vazia.
+Para rodar o projeto na sua máquina você deve ter o NodeJs instalado, navegar com o terminal até a pasta do projeto e executar os seguintes comandos:
+* npm init
+* npm install json-server
+* npx json-server --watch db.json
+
+## 
+
+Olá, desde já agradeço pela visita. Esse projeto tem como ideia construir uma biblioteca de vídeos para que eu possa assistir depois. Os vídeos são dinâmicamente adicionados onde foi simulado uma API. Neste projeto foi realizado:  e executada pelo servidor local usando json-server, depois foram criadas requisições GET para consumir a API e manipular o DOM através do JavaScript,
+
+* Servidor local usando json-server
+* Requisições GET para consumir a API
+* Manipulação do DOM através do JavaScript
+* Inserção de novos objetos no arquivo JSON
+* Salvar dados na API através do método POST
+* Estruturação de requisições do tipo POST enviadas com o fetch API
+* Diferenciar method, headers e body
+* Lidar com erros através com try catch.
+* Criar novos erros com throw new Error.
+
+## 🛠️ Construído com
+* HTML5
+* CSS
+* JavaScript
 * Json-server
 
-## Tecnologias utilizadas no projeto
-* HTML
-* CSS
+## 🛠️ O que vem depois?
+* Pretendo adicionar um botão de remover usando o método DELETE
+* Refazê-lo usando o React
+* Construir outra página e consumir outras APIs
 
-## Screenshots
-![Screenshot da tela inicial do AluraPlay](https://imgur.com/aymxEsh.png)
-![Screenshot da tela do formulário do AluraPlay](https://imgur.com/ShNADf2.png)
+## Contatos
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kefesson-araujo-43592b220/)](https://www.linkedin.com/in/kefesson-araujo-43592b220/)
+## 
+- Obrigado pela visita !!
